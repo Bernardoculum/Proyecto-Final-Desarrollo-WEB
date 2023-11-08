@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto 5</title>
+    <link rel="stylesheet" href="./assets/css/normalize.css">
+    <link rel="stylesheet" href="./assets/css/estilosbarras.css">
+    <link rel="stylesheet" href="./assets/css/Proyectos.css">
+    <script src="./assets/javascript/script.js"> </script>
+</head>
+
+<body>
+
+    {{> header}}
+
+    <section class="division1">
+        <div class="division2">
+            <div>
+                <h1 class="neon">MRU y MRUV DE FISICA</h1>
+                <div>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/NB1arf8iCbA?si=lPhuLM9OEOzF1uY2"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+                </div>
+            </div>
+
+            <div>
+                <h2 class="detalles" onclick="MostrarContenido('info1')">Detalles del Proyecto</h2>
+                <ul id="info1" class="info1">
+                    <li>
+                        <h4>Lenguaje de Programacion</h4>
+                        Javascript
+                    </li>
+
+                    <li> Fisica</li>
+                    <li> css</li>
+
+                </ul>
+            </div>
+        </div>
+
+        <div>
+            <h2 class="moverh2 tit" onclick="MostrarContenido('info2')">Descripcion del Proyecto</h2>
+            <p id="info2" class="info2">
+                Este proyecto tiene como objetivo desarrollar un sitio web de una sola página destinado a facilitar el
+                estudio del Movimiento Rectilíneo Uniforme (MRU) y el Movimiento Rectilíneo Uniformemente Variado (MRUV)
+                en el campo de la física. El sitio proporcionará información relevante sobre estos dos conceptos
+                fundamentales e incluirá formularios interactivos para el cálculo de problemas relacionados con MRU y
+                MRUV. El objetivo principal es ofrecer a los estudiantes una herramienta educativa intuitiva y práctica
+                que les ayude a comprender y aplicar estos conceptos, al tiempo que promueve el uso de entrada de datos
+                a través de formularios web en lugar de ventanas emergentes.
+            </p>
+
+            <ul>
+                <li>
+                    <h2 onclick="MostrarContenido('info3')">Formularios de Cálculo Interactivos</h2>
+                    <p id="info3" class="info3">
+                        El proyecto incorporará un total de seis formularios (tres para MRU y tres para MRUV) que
+                        permitirán a los usuarios ingresar datos específicos relacionados con estos movimientos físicos.
+                        Estos formularios proporcionarán resultados en tiempo real en la misma página, lo que fomentará
+                        la comprensión y el aprendizaje práctico.
+                    </p>
+                </li>
+
+                <li>
+                    <h2 onclick="MostrarContenido('info4')">Diseño Responsivo con CSS Grid</h2>
+                    <p id="info4" class="info4">
+                        El diseño de la página se basará en técnicas modernas de diseño web, con un enfoque en la
+                        usabilidad y la accesibilidad. Se utilizará CSS Grid para organizar los elementos en la página
+                        de manera eficiente, lo que garantizará una experiencia de usuario atractiva
+                    </p>
+                </li>
+
+                <li>
+                    <h2 onclick="MostrarContenido('info5')">Datos Personales del Estudiante:</h2>
+                    <p id="info5" class="info5">
+                        Además de la información sobre MRU y MRUV, el sitio incluirá un footer que proporcionará datos
+                        personales del estudiante, permitiendo una identificación clara del autor del proyecto. Esto
+                        contribuirá a la credibilidad y transparencia del sitio web educativo.
+                    </p>
+                </li>
+
+                <h2 class="titulo4">Imagenes del Proyecto</h2>
+            </ul>
+        </div>
+    </section>
+    <section class="imagencar">
+        <div class="carrusel">
+            <div class="carrusel-items">
+
+                <div class="carrusel-item">
+                    <img src="./Img/ImgPro5/Imagen1.png" alt="" />
+                </div>
+                <div class="carrusel-item">
+                    <img src="./Img/ImgPro5/Imagen2.png" alt="" />
+                </div>
+                <div class="carrusel-item">
+                    <img src="./Img/ImgPro5/Imagen3.png" alt="" />
+                </div>
+                <div class="carrusel-item">
+                    <img src="./Img/ImgPro5/Imagen4.png" alt="" />
+                </div>
+                <div class="carrusel-item">
+                    <img src="./Img/ImgPro5/Imagen5.png" alt="" />
+                </div>
+                <div class="carrusel-item">
+                    <img src="./Img/ImgPro5/Imagen6.png" alt="" />
+                </div>
+                <div class="carrusel-item">
+                    <img src="./Img/ImgPro5/Imagen7.png" alt="" />
+                </div>
+                <div class="carrusel-item">
+                    <img src="./Img/ImgPro5/Imagen8.png" alt="" />
+                </div>
+                <div class="carrusel-item">
+                    <img src="./Img/ImgPro5/Imagen9.png" alt="" />
+                </div>
+                <div class="carrusel-item">
+                    <img src="./Img/ImgPro5/Imagen10.png" alt="" />
+                </div>
+                <div class="carrusel-item">
+                    <img src="./Img/ImgPro5/Imagen11.png" alt="" />
+                </div>
+                <div class="carrusel-item">
+                    <img src="./Img/ImgPro5/Imagen12.png" alt="" />
+                </div>
+
+            </div>
+        </div>
+
+
+        <script src="./assets/javascript/moverImg.js"></script>
+    </section>
+
+    {{> footer}}
+
+</body>
+
+</html>

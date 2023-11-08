@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre Mi</title>
+    <link rel="stylesheet" href="./assets/css/normalize.css">
+    <link rel="stylesheet" href="./assets/css/estilosbarras2.css">
+    <link rel="stylesheet" href="./assets/css/estiloscuerpo.css">
+
+    <script src="./assets/javascript/script.js"> </script>
+</head>
+
+<body>
+    <header>
+        {{> navbar}}
+
+    </header>
+    <br>
+    <section class="numero1 ">
+        <section>
+            <div class="estudios1">
+
+
+
+                <div id="info1" class="info1">
+                    <h1 class="titulo1" onclick="MostrarContenido('info1')">SOBRE MI</h1>
+                    <img class="datos" src="./Img/sobremi.png" alt="">
+                    <h2 class="nombre1">BERNARDO VICENTE HILDEBRANDO CULUM RATZAM</h2>
+                    <h2 class="nombre1">Ingenieria en Sistemas</h2>
+                    <p>
+                        Estudiante de la Carrera de Ingeniería en Sistemas buscando una empresa donde
+                        desenvolver mis habilidades, en mis tiempos libres me gusta reforzar
+                        mis conocimientos en cursos en linea relacionados en mi carrera
+                    </p>
+
+                </div>
+                <div>
+                    <h2 class="titulo1" onclick="MostrarContenido('info2')">ESTUDIOS</h2>
+                    <img class="datos" src="./Img/studio.png" alt="">
+
+                    <div id="info2" class="info2">
+                        <ul>
+                            <li>
+                                <h3>2023 Octavo Semestre de la Carrera de Ingenieria en Sistemas</h3>
+                                <h4>Universidad Mariano Galvez de Guatemala sede Sololá</h4>
+                            </li>
+                            <li>
+                                <h3>2018 Diversificado </h3>
+                                <h4>Instituto Nacional de Educación Diversificada San Juan La Laguna</h4>
+                            </li>
+                            <li>
+                                <h3>2016 Nivel Medio</h3>
+                                <h4>Colegio Católico San Juan Bautista de LA SALLE</h4>
+                            </li>
+
+                            <li>
+                                <h3>2016 Nivel Primario</h3>
+                                <h4>Colegio Católico Mixto Parroquial San Pablo La Laguna</h4>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+        </div>
+        <section class="numero2">
+
+            <div>
+                <h2 class="titulo1" onclick="MostrarContenido('info3')">HABILIDADES</h2>
+                <img class="datos" src="./Img/habilidades.png" alt="">
+                <ul id="info3" class="info3">
+                    <div class="particion3">
+                        <div>
+                            <li>
+                                <h3>Base de Datos</h3>
+                                <div class="progress-container">
+                                    <div class="linea progress-bar1"></div>
+                                    <span class="porcentaje"> 50% </span>
+                                </div>
+                            </li>
+                            <li>
+                                <h3>Redes</h3>
+                                <div class="progress-container">
+                                    <div class="linea progress-bar4"></div>
+                                    <span class="porcentaje"> 40% </span>
+                                </div>
+                            </li>
+
+
+
+                            <li>
+                                <h3>Sistemas Operativos</h3>
+                                <div class="progress-container">
+                                    <div class="linea progress-bar1"></div>
+                                    <span class="porcentaje"> 50% </span>
+                                </div>
+                            </li>
+                        </div>
+                        <div>
+
+                            <li>
+                                <h3>Programacion</h3>
+                                <div class="progress-container">
+                                    <div class="linea progress-bar4"></div>
+                                    <span class="porcentaje"> 40% </span>
+                                </div>
+                            </li>
+
+
+
+                            <li>
+                                <h3>Photoshop</h3>
+                                <div class="progress-container">
+                                    <div class="linea progress-bar2"></div>
+                                    <span class="porcentaje"> 60% </span>
+                                </div>
+                            </li>
+                            <li>
+                                <h3>Soporte y Mantenimiento de Computadoras</h3>
+                                <div class="progress-container">
+                                    <div class="linea progress-bar2"></div>
+                                    <span class="porcentaje"> 70% </span>
+                                </div>
+                            </li>
+                        </div>
+                    </div>
+                </ul>
+            </div>
+
+        </section>
+    </section>
+
+    {{> footer}}
+
+</body>
+
+</html>

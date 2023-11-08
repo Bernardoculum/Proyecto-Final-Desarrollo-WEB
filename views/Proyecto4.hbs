@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto 4</title>
+    <link rel="stylesheet" href="./assets/css/normalize.css">
+    <link rel="stylesheet" href="./assets/css/estilosbarras.css">
+    <link rel="stylesheet" href="./assets/css/Proyectos.css">
+    <script src="./assets/javascript/script.js"> </script>
+</head>
+
+<body>
+
+    {{> header}}
+
+    <section class="division1">
+        <div class="division2">
+            <div>
+                <h1 class="neon">MANTENIMIENTO EN SQL SERVER</h1>
+                <div>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/pnHXRhm7ApQ?si=6ln6cagPfaUT3uKT"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+                </div>
+            </div>
+
+            <div>
+                <h2 class="detalles" onclick="MostrarContenido('info1')">Detalles del Proyecto</h2>
+                <ul id="info1" class="info1">
+                    <li>
+                        <h4>Lenguaje de Programacion</h4>
+                        C#
+                    </li>
+
+                    <li> SQL SERVER</li>
+                    <li> Windows Forms</li>
+
+                </ul>
+            </div>
+        </div>
+
+        <div>
+            <h2 class="moverh2 tit" onclick="MostrarContenido('info2')">Descripcion del Proyecto</h2>
+            <p id="info2" class="info2">
+                El proyecto "Mantenimiento en SQL Server y C# Windows Forms" encapsula mis habilidades
+                excepcionales en el diseño, implementación y optimización de soluciones de software que involucran tanto
+                la manipulación de datos en una base de datos como la interacción amigable con los usuarios a través de
+                una interfaz gráfica. Este proyecto refleja la aplicación efectiva de mis conocimientos técnicos en
+                varias área
+            </p>
+
+            <ul>
+                <li>
+                    <h2 onclick="MostrarContenido('info3')">Modelado de Datos y Normalización</h2>
+                    <p id="info3" class="info3">
+                        Diseñé una estructura de base de datos sólida que consta de tres tablas
+                        Aplicando principios de normalización, aseguré que los datos estén organizados de manera
+                        eficiente y que se eviten redundancias y anomalías.
+                    </p>
+                </li>
+
+                <li>
+                    <h2 onclick="MostrarContenido('info4')">Creación de Tablas y Relaciones en SQL Server</h2>
+                    <p id="info4" class="info4">
+                        Utilicé SQL Server para crear las tablas necesarias para almacenar la información.
+                        Establecí relaciones apropiadas, como las claves primarias y foráneas, para garantizar la
+                        integridad de los datos y permitir consultas eficientes.
+                    </p>
+                </li>
+
+                <li>
+                    <h2 onclick="MostrarContenido('info5')">Uso de Entorno Gráfico en C# Windows Forms</h2>
+                    <p id="info5" class="info5">
+                        Implementé una interfaz gráfica atractiva y amigable utilizando Windows Forms, lo que demuestra
+                        mi habilidad para crear experiencias de usuario intuitivas y profesionales.
+                        Diseñé ventanas específicas para realizar tareas de mantenimiento y manipulación de datos en las
+                        tablas
+                    </p>
+                </li>
+                <li>
+                    <h2 onclick="MostrarContenido('info6')">Funcionalidades de Mantenimiento</h2>
+                    <p id="info6" class="info6">
+                        Desarrollé funcionalidades completas de mantenimiento, como la inserción, actualización y
+                        eliminación de registros en las tablas.
+                        Implementé validaciones para garantizar que los datos ingresados sean coherentes y precisos.
+                    </p>
+                </li>
+
+                <h2 class="titulo4">Imagenes del Proyecto</h2>
+            </ul>
+        </div>
+    </section>
+    <section class="imagencar">
+        <div class="carrusel">
+            <div class="carrusel-items">
+
+                <div class="carrusel-item">
+                    <img src="./Img/ImgPro4/Imagen1.png" alt="" />
+                </div>
+                <div class="carrusel-item">
+                    <img src="./Img/ImgPro4/Imagen2.png" alt="" />
+                </div>
+                <div class="carrusel-item">
+                    <img src="./Img/ImgPro4/Imagen3.png" alt="" />
+                </div>
+                <div class="carrusel-item">
+                    <img src="./Img/ImgPro4/Imagen4.png" alt="" />
+                </div>
+                <div class="carrusel-item">
+                    <img src="./Img/ImgPro4/Imagen5.png" alt="" />
+                </div>
+                <div class="carrusel-item">
+                    <img src="./Img/ImgPro4/Imagen6.png" alt="" />
+                </div>
+                <div class="carrusel-item">
+                    <img src="./Img/ImgPro4/Imagen7.png" alt="" />
+                </div>
+                <div class="carrusel-item">
+                    <img src="./Img/ImgPro4/Imagen8.png" alt="" />
+                </div>
+                <div class="carrusel-item">
+                    <img src="./Img/ImgPro4/Imagen9.png" alt="" />
+                </div>
+                <div class="carrusel-item">
+                    <img src="./Img/ImgPro4/Imagen10.png" alt="" />
+                </div>
+                <div class="carrusel-item">
+                    <img src="./Img/ImgPro4/Imagen11.png" alt="" />
+                </div>
+                <div class="carrusel-item">
+                    <img src="./Img/ImgPro4/Imagen12.png" alt="" />
+                </div>
+
+            </div>
+        </div>
+
+
+        <script src="./assets/javascript/moverImg.js"></script>
+    </section>
+
+    {{> footer}}
+
+</body>
+
+</html>

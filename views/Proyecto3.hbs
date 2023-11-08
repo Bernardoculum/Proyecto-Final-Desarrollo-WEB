@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto 3</title>
+    <link rel="stylesheet" href="./assets/css/normalize.css">
+    <link rel="stylesheet" href="./assets/css/estilosbarras.css">
+    <link rel="stylesheet" href="./assets/css/Proyectos.css">
+    <script src="./assets/javascript/script.js"> </script>
+</head>
+
+<body>
+
+    {{> header}}
+
+    <section class="division1">
+        <div class="division2">
+            <div>
+                <h1>GESTION DE PROCESOS</h1>
+                <div>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/p2zvpY_EIyo?si=y_MMCdDs5QdsZ9l8"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+                </div>
+            </div>
+
+            <div>
+                <h2 class="detalles" onclick="MostrarContenido('info1')">Detalles del Proyecto</h2>
+                <ul id="info1" class="info1">
+                    <li>
+                        <h4>Lenguaje de Programacion</h4>
+                        C#
+                    </li>
+
+                    <li> Procesos</li>
+                    <li> Software</li>
+                    <li> Interbloqueo</li>
+                    <li> Concurrencia</li>
+
+                </ul>
+            </div>
+        </div>
+
+        <div>
+            <h2 class="moverh2 tit" onclick="MostrarContenido('info2')">Descripcion del Proyecto</h2>
+            <p id="info2" class="info2">
+                En el proyecto "Gestion de Procesos", he demostrado mi experiencia y
+                habilidades en desarrollo de software al crear una herramienta completa y efectiva utilizando las
+                capacidades del lenguaje C# y las características de Windows Forms en Visual Studio 2019. A
+                continuación, describo cómo he puesto en práctica estas habilidades a través de las distintas ventanas y
+                funcionalidades del sistema:
+            </p>
+
+            <ul>
+                <li>
+                    <h2 onclick="MostrarContenido('info3')">Desarrollo en C# y Windows Forms</h2>
+                    <p id="info3" class="info3">
+                        Utilicé C# como lenguaje principal para implementar todas las funciones y lógica del sistema,
+                        aprovechando su versatilidad y orientación a objetos.
+                        Creé una interfaz gráfica atractiva y funcional utilizando Windows Forms, permitiendo una
+                        experiencia de usuario intuitiva y amigable.
+                    </p>
+                </li>
+
+                <li>
+                    <h2 onclick="MostrarContenido('info4')">Diseño de Ventanas Específicas</h2>
+                    <p id="info4" class="info4">
+                        Desarrollé 8 ventanas distintas, cada una diseñada para ejecutar tareas específicas del sistema.
+                        Utilicé técnicas de diseño de interfaz para asegurarme de que cada ventana sea clara y fácil de
+                        entender, facilitando la interacción del usuario.
+                    </p>
+                </li>
+
+                <li>
+                    <h2 onclick="MostrarContenido('info5')">Interacción y Navegación</h2>
+                    <p id="info5" class="info5">
+                        Implementé un menú principal con botones que representan cada una de las tareas que el sistema
+                        puede realizar.
+                        Diseñé una navegación fluida entre las diferentes ventanas, permitiendo al usuario acceder a las
+                        funcionalidades deseadas de manera eficiente.
+                    </p>
+                </li>
+                <li>
+                    <h2 onclick="MostrarContenido('info6')">Integración de Librerías y Mejora Visual</h2>
+                    <p id="info6" class="info6">
+                        Utilicé librerías externas para mejorar el aspecto visual del sistema, asegurando que la
+                        interfaz tenga un diseño moderno y atractivo.
+                        Personalicé elementos gráficos para mantener la coherencia visual y ofrecer una experiencia de
+                        usuario profesional.
+                    </p>
+                </li>
+
+                <h2 class="titulo4">Imagenes del Proyecto</h2>
+            </ul>
+        </div>
+    </section>
+    <section class="imagencar">
+        <div class="carrusel">
+            <div class="carrusel-items">
+
+                <div class="carrusel-item">
+                    <img src="./Img/ImgPro3/Imagen1.png" alt="" />
+                </div>
+                <div class="carrusel-item">
+                    <img src="./Img/ImgPro3/Imagen2.png" alt="" />
+                </div>
+                <div class="carrusel-item">
+                    <img src="./Img/ImgPro3/Imagen3.png" alt="" />
+                </div>
+                <div class="carrusel-item">
+                    <img src="./Img/ImgPro3/Imagen4.png" alt="" />
+                </div>
+                <div class="carrusel-item">
+                    <img src="./Img/ImgPro3/Imagen5.png" alt="" />
+                </div>
+                <div class="carrusel-item">
+                    <img src="./Img/ImgPro3/Imagen6.png" alt="" />
+                </div>
+                <div class="carrusel-item">
+                    <img src="./Img/ImgPro3/Imagen7.png" alt="" />
+                </div>
+                <div class="carrusel-item">
+                    <img src="./Img/ImgPro3/Imagen8.png" alt="" />
+                </div>
+                <div class="carrusel-item">
+                    <img src="./Img/ImgPro3/Imagen9.png" alt="" />
+                </div>
+                <div class="carrusel-item">
+                    <img src="./Img/ImgPro3/Imagen10.png" alt="" />
+                </div>
+
+            </div>
+        </div>
+
+
+        <script src="./assets/javascript/moverImg.js"></script>
+    </section>
+    {{> footer}}
+
+</body>
+
+</html>

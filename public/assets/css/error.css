@@ -1,0 +1,16 @@
+body{
+    background-image: url(/Img/error.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+
+  .boton{
+    background: transparent;
+    border: none;
+    color: aquamarine;
+    font-weight: bold;
+    font-size: 23px;
+    height: 60px;
+}

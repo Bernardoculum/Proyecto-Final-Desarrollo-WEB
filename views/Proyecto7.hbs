@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto 7</title>
+    <link rel="stylesheet" href="./assets/css/normalize.css">
+    <link rel="stylesheet" href="./assets/css/estilosbarras.css">
+    <link rel="stylesheet" href="./assets/css/Proyectos.css">
+    <script src="./assets/javascript/script.js"> </script>
+</head>
+
+<body>
+
+    {{> header}}
+
+    <section class="division1">
+        <div class="division2">
+            <div>
+                <h1 class="neon">MONGO DB ATLAS</h1>
+                <div>
+                    <video class="videos" src="./Videos/Proyecto6.mp4" controls></video>
+                </div>
+            </div>
+
+            <div>
+                <h2 class="detalles" onclick="MostrarContenido('info1')">Detalles del Proyecto</h2>
+                <ul id="info1" class="info1">
+                    <li>
+                        <h4>Lenguaje de Programacion</h4>
+                        Javascript
+                    </li>
+
+                    <li> Node JS</li>
+                    <li> Express</li>
+                    <li> MONGO DB</li>
+
+
+                </ul>
+            </div>
+        </div>
+
+        <div>
+            <h2 class="moverh2 tit" onclick="MostrarContenido('info2')">Descripcion del Proyecto</h2>
+            <p id="info2" class="info2">
+                Este proyecto se centra Node.js y MongoDB Atlas para gestionar y almacenar datos relacionados con
+                usuarios y sus roles. La aplicación está diseñada para separar la lógica en capas distintas, siguiendo
+                el patrón Modelo-Vista-Controlador (MVC). Se utilizará Express como marco de aplicación web y se
+                realizarán operaciones de inserción y recuperación de datos desde la base de datos MongoDB Atlas. El
+                proyecto se registró en un repositorio de GitHub.
+            </p>
+
+            <ul>
+                <li>
+                    <h2 onclick="MostrarContenido('info3')">Herramientas y Tecnologías Utilizadas</h2>
+                    <p id="info3" class="info3">
+                <li class="parrafo">Node.js: Plataforma para la ejecución de JavaScript en el servidor.</li>
+                <li class="parrafo">Git y GitHub: Control de versiones y plataforma de alojamiento en la nube.</li>
+                <li class="parrafo">Visual Studio Code: Entorno de desarrollo.</li>
+                <li class="parrafo">Mongoose: Librería de MongoDB para Node.js que facilita la interacción con la base
+                    de datos.</li>
+                <li class="parrafo">Express.js: Framework de Node.js para crear aplicaciones web.</li>
+                </p>
+                </li>
+
+                <li>
+                    <h2 onclick="MostrarContenido('info4')">Objetivos de la Aplicación</h2>
+                    <p id="info4" class="info4">
+                        Conexión a MongoDB Atlas: Configurar la conexión a la base de datos MongoDB Atlas desde la
+                        aplicación Node.js utilizando Mongoose
+                    </p>
+                </li>
+                <li>
+                    <h2 onclick="MostrarContenido('info6')">Logica del Programa</h2>
+                    <p id="info6" class="info6">
+                        La lógica del programa se organizará en capas separadas, incluyendo vistas, controladores y
+                        rutas, siguiendo el patrón Modelo-Vista-Controlador (MVC)
+                    </p>
+                </li>
+
+                <h2 class="titulo4">Imagenes del Proyecto</h2>
+            </ul>
+        </div>
+    </section>
+    <section class="imagencar">
+        <div class="carrusel">
+            <div class="carrusel-items">
+
+                <div class="carrusel-item">
+                    <img src="./Img/ImgPro7/Imagen1.png" alt="" />
+                </div>
+                <div class="carrusel-item">
+                    <img src="./Img/ImgPro7/Imagen2.png" alt="" />
+                </div>
+                <div class="carrusel-item">
+                    <img src="./Img/ImgPro7/Imagen3.png" alt="" />
+                </div>
+                <div class="carrusel-item">
+                    <img src="./Img/ImgPro7/Imagen4.png" alt="" />
+                </div>
+                <div class="carrusel-item">
+                    <img src="./Img/ImgPro7/Imagen5.png" alt="" />
+                </div>
+                <div class="carrusel-item">
+                    <img src="./Img/ImgPro7/Imagen6.png" alt="" />
+                </div>
+                <div class="carrusel-item">
+                    <img src="./Img/ImgPro7/Imagen7.png" alt="" />
+                </div>
+                <div class="carrusel-item">
+                    <img src="./Img/ImgPro7/Imagen8.png" alt="" />
+                </div>
+                <div class="carrusel-item">
+                    <img src="./Img/ImgPro7/Imagen9.png" alt="" />
+                </div>
+                <div class="carrusel-item">
+                    <img src="./Img/ImgPro7/Imagen10.png" alt="" />
+                </div>
+                <div class="carrusel-item">
+                    <img src="./Img/ImgPro7/Imagen11.png" alt="" />
+                </div>
+                <div class="carrusel-item">
+                    <img src="./Img/ImgPro7/Imagen12.png" alt="" />
+                </div>
+
+            </div>
+        </div>
+
+
+        <script src="./assets/javascript/moverImg.js"></script>
+    </section>
+
+    {{> footer}}
+
+</body>
+
+</html>

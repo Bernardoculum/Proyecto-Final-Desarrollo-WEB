@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Proyecto 2</title>
+  <link rel="stylesheet" href="./assets/css/normalize.css">
+  <link rel="stylesheet" href="./assets/css/estilosbarras.css">
+  <link rel="stylesheet" href="./assets/css/Proyectos.css">
+  <script src="./assets/javascript/script.js"> </script>
+</head>
+
+<body>
+
+  {{> header}}
+
+  <section class="division1">
+    <div class="division2">
+
+      <div>
+        <h1 class="neon">ESTRUCTURA DE DATOS</h1>
+        <div>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/L-9ruWBpbGs?si=HhlIgb4eUSziy8NZ"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen></iframe>
+        </div>
+      </div>
+
+
+      <div>
+        <h2 class="detalles" onclick="MostrarContenido('info1')">Detalles del Proyecto</h2>
+        <ul id="info1" class="info1">
+          <li>
+            <h4>Lenguaje de Programacion</h4>
+            C++
+          </li>
+
+          <li> Pilas</li>
+          <li> Colas</li>
+          <li> Arboles ABB</li>
+          <li> Arboles AVL</li>
+
+        </ul>
+      </div>
+    </div>
+
+    <div>
+      <h2 class="moverh2 tit" onclick="MostrarContenido('info2')">Descripcion del Proyecto</h2>
+      <p id="info2" class="info2">
+        En en este proyecto esta implementada varias estructuras de datos las
+        cuales se demuestran el funcionamiento en cada una de ellas, en lo cual está estructurado en PILA, COLA,
+        ÁRBOL BINARIO DE
+        BÚSQUEDA y AVL de estos temas se presenta los conceptos, funcionamiento,
+        representación en imagen, ejemplos, operaciones, ejecución del programa en
+        cada una.
+      </p>
+
+      <ul>
+        <li>
+          <h2 onclick="MostrarContenido('info3')">Diseño de Estructuras de Datos</h2>
+          <p id="info3" class="info3">
+            Desarrollé una variedad de estructuras de datos esenciales, incluyendo Pila, Cola, Árbol Binario
+            de Búsqueda y Árbol AVL, para resolver desafíos relacionados con la gestión de datos.
+            Demostré mi capacidad para conceptualizar y aplicar estas estructuras de datos en situaciones
+            del mundo real, permitiendo la entrada y recuperación eficiente de información.
+          </p>
+        </li>
+
+        <li>
+          <h2 onclick="MostrarContenido('info4')">Programación en C++</h2>
+          <p id="info4" class="info4">
+            Utilicé el lenguaje C++ para implementar el proyecto, aprovechando sus características de bajo
+            nivel y alta eficiencia en la manipulación de estructuras de datos.
+            Desarrollé soluciones robustas y elegantes al combinar elementos como punteros, clases y
+            funciones, y utilicé las bibliotecas estándar de C++ de manera eficaz.
+          </p>
+        </li>
+
+        <li>
+          <h2 onclick="MostrarContenido('info5')">Interacción de Usuario</h2>
+          <p id="info5" class="info5">
+            Diseñé una interfaz de usuario en consola que permite a los usuarios interactuar con las
+            estructuras de datos de manera intuitiva.
+            Proporcioné comentarios detallados en el código, explicando cada paso y decisión de diseño,
+            facilitando la comprensión y colaboración futura
+          </p>
+        </li>
+        <li>
+          <h2 onclick="MostrarContenido('info6')">Herramientas y Entorno de Desarrollo</h2>
+          <p id="info6" class="info6">
+            Empleé Visual Studio como herramienta de desarrollo, sacando provecho de su potente depuración y
+            capacidad de desarrollo en C++.
+            Configuré un entorno de trabajo eficiente que me permitió abordar problemas de manera
+            sistemática y realizar un seguimiento preciso del progreso del proyecto.
+          </p>
+        </li>
+        <h2 class="titulo4">Imagenes del Proyecto</h2>
+
+      </ul>
+    </div>
+  </section>
+  <section class="imagencar">
+    <div class="carrusel">
+      <div class="carrusel-items">
+
+        <div class="carrusel-item">
+          <img src="./Img/ImgPro2/Imagen1.png" alt="" />
+        </div>
+        <div class="carrusel-item">
+          <img src="./Img/ImgPro2/Imagen2.png" alt="" />
+        </div>
+        <div class="carrusel-item">
+          <img src="./Img/ImgPro2/Imagen3.png" alt="" />
+        </div>
+        <div class="carrusel-item">
+          <img src="./Img/ImgPro2/Imagen4.png" alt="" />
+        </div>
+        <div class="carrusel-item">
+          <img src="./Img/ImgPro2/Imagen5.png" alt="" />
+        </div>
+        <div class="carrusel-item">
+          <img src="./Img/ImgPro2/Imagen6.png" alt="" />
+        </div>
+        <div class="carrusel-item">
+          <img src="./Img/ImgPro2/Imagen7.png" alt="" />
+        </div>
+        <div class="carrusel-item">
+          <img src="./Img/ImgPro2/Imagen8.png" alt="" />
+        </div>
+        <div class="carrusel-item">
+          <img src="./Img/ImgPro2/Imagen9.png" alt="" />
+        </div>
+        <div class="carrusel-item">
+          <img src="./Img/ImgPro2/Imagen10.png" alt="" />
+        </div>
+
+      </div>
+    </div>
+
+
+    <script src="./assets/javascript/moverImg.js"></script>
+  </section>
+
+  {{> footer}}
+
+
+</body>
+
+</html>
